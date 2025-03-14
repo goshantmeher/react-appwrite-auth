@@ -1,0 +1,21 @@
+.copyButtton {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  position: relative;
+}
+
+.copyButtton .tooltip {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(6px, -50%);
+  visibility: hidden;
+}
+.copyButtton.copied .tooltip {
+  visibility: visible;
+}
